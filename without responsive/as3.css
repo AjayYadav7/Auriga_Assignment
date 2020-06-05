@@ -1,0 +1,111 @@
+.outer{
+			border:2px solid black;
+			border-top: 4px solid black;
+			width:80%;
+			margin-left:100px;
+		}
+		.outer > .inner1{
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+		.i1span{
+			margin-left: 760px;
+		}
+		
+		.outer > .i2{
+			margin:10px 0px;
+			text-align: center;
+		}
+		.i2span{
+			font-size: 40px;
+		}
+		.l1{
+			margin-left: 41px;
+			/*margin-bottom: px;*/
+		}
+		.l2{		/*email label*/
+
+		}
+		#fid{
+			width:95%;
+			margin:25px;
+			background-color: lightgrey;
+		}
+		#message{
+			/*margin-top:15px;*/
+		}
+		.classa{
+			margin-left: 65px;
+		}
+		#bid{
+			margin-top: 10px;
+			margin-left: 65px;
+		}
+
+		/****************************Second Inner Block********************/
+		.inner2{
+			display: inline-block;
+			padding-left: 10px;			
+			background-color: lightgrey;
+		}
+		.inner2 > .i21{
+			width: 60%;
+			font-size: 40px;
+		}
+		.inner2 > .i22a{
+			width: 150px;
+			text-align: right;
+			margin-right: 20px;
+			margin-top: 15px;
+			background-color: grey;
+		}
+		.new{
+			background-color: darkgrey;
+			font-size: 15px;
+			/*align-items: center;*/
+		}
+		.inner2 > .i22b{
+			font-size: 20px;
+			margin-top: 15px;
+
+		}
+		.inner2 > .i22c{
+			font-size: 20px;
+			margin-top: 15px;
+			margin-right: 500px;
+
+		}
+		.i22d{
+			font-size: 20px;
+			margin-top: 15px;
+			margin-right: 200px;
+		}
+		.oa{
+			width: 80%;
+			margin-left: 100px;
+		}
+		.oaspan{
+			margin-left: 450px;
+		}
+		
+		div.buttons{
+			display: inline;
+			margin:0px 10px;
+			
+		}
+		.b1{
+			background-color: grey;
+			margin-bottom: 0px;
+		}
+		.b2{
+			min-width: 50px;
+			background-color: grey;
+		}
+		.b3{
+			min-width: 50px;
+			background-color: grey;
+		}
+		.bspan{
+			float: right;
+			margin-right: 10px;
+		}

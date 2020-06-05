@@ -1,0 +1,75 @@
+@media screen and (min-width: 600px) {
+			  row {
+			    col-*{width:100%;}
+			  }
+		@media screen and (min-width: 600px) {
+			  row {
+			    col-*{width:50%;}
+			  }	  
+		.container{
+			border:1px solid black;
+			max-width: 60%;
+
+		}
+		.container1{
+			border-top:8px solid black;
+		}
+		.row2{
+			text-align: center;
+			font-size: 30px;
+			margin-top: 15px;
+		}
+		.row3{
+			text-align: center;
+		}
+		.formclass{
+			margin-top: 10px;
+			border:1px solid black;
+			padding: 25px;
+			max-width: 95%;
+			margin:10px auto; 
+			background-color: lightgrey;
+		}
+		.btn-group{
+			margin-top: 15px;
+			padding-left: 15px;
+		}
+		.btn-group>button{
+			margin:0px 15px;
+		}
+		.btn-link{
+			
+		}
+
+
+		.container2{
+			background-color: lightgrey;
+		}
+		.new{
+			background-color: black;
+			color: white;
+		}
+		.container2row1{
+			text-align: right;
+		}
+		.container2row{
+			margin:8px 0px;
+		}
+		.last{
+			margin:20px;
+		}
+		.last > div{
+			background-color: grey;
+			text-align: center;
+			max-width:49%;
+			margin:auto;
+		}
+		.outer{
+			max-width: 62%;
+			margin:0px auto;
+			
+		}
+		
+		.o2{
+			text-align: right;
+		}

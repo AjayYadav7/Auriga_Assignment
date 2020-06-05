@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 3</title>
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="C:\Users\Ajay yadav\Documents\My Web Development\Bootstrap\css\bootstrap.css">
+	<style>
+		@media screen and (min-width: 600px) {
+			  row {
+			    col-*{width:100%;}
+			  }
+		@media screen and (min-width: 600px) {
+			  row {
+			    col-*{width:50%;}
+			  }	  
+		.container{
+			border:1px solid black;
+			max-width: 60%;
+
+		}
+		.container1{
+			border-top:8px solid black;
+		}
+		.row2{
+			text-align: center;
+			font-size: 30px;
+			margin-top: 15px;
+		}
+		.row3{
+			text-align: center;
+		}
+		.formclass{
+			margin-top: 10px;
+			border:1px solid black;
+			padding: 25px;
+			max-width: 95%;
+			margin:10px auto; 
+			background-color: lightgrey;
+		}
+		.btn-group{
+			margin-top: 15px;
+			padding-left: 15px;
+		}
+		.btn-group>button{
+			margin:0px 15px;
+		}
+		.btn-link{
+			
+		}
+
+
+		.container2{
+			background-color: lightgrey;
+		}
+		.new{
+			background-color: black;
+			color: white;
+		}
+		.container2row1{
+			text-align: right;
+		}
+		.container2row{
+			margin:8px 0px;
+		}
+		.last{
+			margin:20px;
+		}
+		.last > div{
+			background-color: grey;
+			text-align: center;
+			max-width:49%;
+			margin:auto;
+		}
+		.outer{
+			max-width: 62%;
+			margin:0px auto;
+			
+		}
+		
+		.o2{
+			text-align: right;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container container1">
+		<div class="row">
+			<div class="col-lg-6"><strong>Textify:</strong>Because Text Messaging Rocks</div>
+			<div class="col-lg-1" style="float:right; text-align:right"><a href="#">Logout</a></div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 row2"><strong>(212) 555-1234</strong></div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 row3"><a href="#"><u>What is the number?</u></a></div>
+		</div>
+		<form class="form-horizontal formclass">
+			<div class="form-group">
+				<label class="control-label col-xs-1" for="email">To:</label>
+				<div class="col-xs-4">
+					<input type="email" class="form-control" id="email"></div>>> Phone Number or name
+			</div>
+			<div class="form-group">
+				<label class="control-label col-xs-1" for="msg">Message:</label>
+				<div class="col-xs-10">
+					<textarea class="form-control" rows="3" cols="8"></textarea>
+					<div>
+					<a href="#">Attach a photo or text message</a>
+					</div>
+					<button class="btn-default btn-lg">Send Text Message</button> Or, <a href="#">Schedule it for later delivery</a>
+					</div>
+			</div>
+		</form>
+		<div class="row btn-group">
+			<button class="btn">Recent Conversation</button>
+			<button class="btn">All Conversation</button>
+			<button class="btn">Photos</button>
+			<button class="btn-link">Change</button>
+		</div>
+</div>
+	<div class="container container2">
+		<div class="page-header"><h3>Photos From All Conversation</h3></div>
+		<div class="row container2row">
+			<div class="col-xs-2 container2row1"><u><b>(508) 555-1234</b></u><div>233 Messages</div></div>
+			<div class="col-xs-10"><span class="new">NEW</span> OMG!-I can't wait to see that movie! What theater do you want to go to? Anything down near union Sq is really best for me.</div>
+		</div>
+		<div class="row container2row">
+			<div class="col-xs-2 container2row1"><u><b>Sarah Kelly</b></u><div>151 Messages</div></div>
+			<div class="col-xs-10">Thanks for your Condolences. The family is taking it pretty hard. But, she was 92	 -she lived a really great life. This weekend, we're gonna be going through all her old photos. xoxo.</div>
+		</div>
+		<div class="row container2row">
+			<div class="col-xs-2 container2row1"><u><b>Luke Jones</b></u><div>135 Messages</div></div>
+			<div class="col-xs-10">Yeah, I got the package. Next time, you can just leave at the dry cleaners in the front of my building they are pretty cool about that.</div>
+		</div>
+
+		<h2>All Conversations</h2>
+		<hr>
+		<div class="row container2row">
+			<div class="col-xs-2 container2row1"><u><b>(212) 555-0933</b></u><div>17 Messages</div></div>
+			<div class="col-xs-10">Ha ha ha ha - that is hilarious!</div>
+		</div>
+		<div class="row container2row">
+			<div class="col-xs-2 container2row1"><u><b>(646) 555-1705</b></u><div>3 Messages</div></div>
+			<div class="col-xs-10"><span class="new">NEW</span> It was a great to meet you last night.How funny is it that we've both knownjeff for 5 years and have never met ?!?hopefully we can get together some time soon</div>
+		</div>
+		<div class="row container2row">
+			<div class="col-xs-2 container2row1"><u><b>(918) 555-2230</b></u><div>7 Messages</div></div>
+			<div class="col-xs-10"><span class="new">NEW</span>  Hey what was the name of the movie you were talking about last night? Something about a dude who is cloned and lives on the moon? Or Mars? I want to look it up on Netflix.</div>
+		</div>
+		<div class="row container2row">
+			<div class="col-xs-2 container2row1"><u><b>Mom</b></u><div>38 Messages</div></div>
+			<div class="col-xs-10">Am I ever going to see you again? Are you still alive? You should come up to the house this weekend.</div>
+		</div>
+		<div class="row container2row">
+			<div class="col-xs-2 container2row1"><u><b>Katherine Ho</b></u><div>12 Messages</div></div>
+			<div class="col-xs-10">At 7:30.But if we miss that one, there's always the 9:45 show</div>
+		</div>
+		<div class="row container2row">
+			<div class="col-xs-2 container2row1"><u><b>(212) 555-2553</b></u><div>11 Messages</div></div>
+			<div class="col-xs-10"><span class="new">NEW</span> Ha ha, this is the straight up brilliant! I swear you're not human - it's like your brain refuses to work like everyone else's. When your people come to take over the planet, can I be your queen?</div>
+		</div>
+		<div class="row container2row">
+			<div class="col-xs-2 container2row1"><u><b>(917) 555-4606</b></u><div>10 Messages</div></div>
+			<div class="col-xs-10"><span class="new">NEW</span>Not at all -- Bill and Ted sequal was horrible; but, what I'm saying is that they make some really brilliant references to ancient literature and modern philosophy. The Whole chess game with the devil amazing!</div>
+		</div>
+
+		<div class="row last">
+			<div><a href="#">Load More Photos</a></div>
+			<div>There are 93 more photos accross 7 conversations.</div>
+		</div>
+	</div>
+	<div class="row outer">
+		<div class="col-xs-3">Textify &copy2011</div>
+		<div class="col-xs-9 o2">All text messaging data on this site is kept 100% sescure-<a href="#">Read out Securty policy</a></div>
+	</div>
+
+
+
+</body>
+</html>

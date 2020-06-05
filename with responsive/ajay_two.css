@@ -1,0 +1,74 @@
+.container{
+			border:1px solid black;
+			max-width:70%;
+		}
+		.row2{
+			text-align: center;
+			font-size: 30px;
+			margin-top: 15px;
+		}
+		.row3{
+			text-align: center;
+		}
+		.formclass{
+			margin-top: 10px;
+			border:1px solid black;
+			padding: 25px;
+			max-width: 95%;
+			margin:10px auto; 
+			background-color: lightgrey;
+		}
+		.btn-group{
+			margin-top: 15px;
+			padding-left: 15px;
+		}
+		.btn-group>button{
+			margin:0px 15px;
+		}
+		.btn-link{
+			
+		}
+
+		.container2{
+			background-color: lightgrey;
+			padding: 15px;	
+
+		}
+		.container2>.row{
+			margin: 0px;
+		}
+		.c2row3{
+			background-color: grey;
+			text-align: center;
+			
+		}
+		.lefttext{
+			background-color: grey;
+		}
+		.rightnumber{
+			text-align: right;
+		}
+		.righttext{
+			background-color: grey;
+			float: right;
+		}
+		.last{
+			
+			padding-top: 10px;
+			margin:20px;
+		}
+		.last > div{
+			background-color: grey;
+			text-align: center;
+			max-width:49%;
+			margin:auto;
+		}
+		.outer{
+			max-width: 72%;
+			margin:0px auto;
+			
+		}
+		
+		.o2{
+			text-align: right;
+		}

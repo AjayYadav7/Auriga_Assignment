@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="C:\Users\Ajay yadav\Documents\My Web Development\Bootstrap\css\bootstrap.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="ajay_js_1.css">
+  
+</head>
+<body>
+
+<button class="tabs" onclick="tabpage('TabA', this, 'green')" id="defaultOpen">TabA</button>
+<button class="tabs" onclick="tabpage('TabB', this, 'pink')" >TabB</button>
+<button class="tabs" onclick="tabpage('TabC', this, 'orange')">TabC</button>
+<button class="tabs" onclick="tabpage('TabD', this, 'purple')">TabD</button>
+<div id="TabB" class="tabcontainer">
+  <h1>Tab B</h1>
+</div>
+<div id="TabC" class="tabcontainer">
+  <h3>Tab C</h3>
+</div>
+<div id="TabD" class="tabcontainer">
+  <h1>Tab D</h1>  
+</div>
+<div class="container-fluid tabcontainer bg-primary" id="TabA">
+    <form class="bg-dark">
+      <fieldset>
+        <div class="form-group">
+            <label for="Name">Name :</label>
+            <input type="text" class="form-control" id="Name"  name="Name" required>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" name="Email" required>
+        </div>
+        <div class="form-group">
+            <label for="country">Country :</label>
+            <input type="country" class="form-control" list="datalist" id="Country" name="Country" required>
+            <datalist id="datalist"> 
+          <option value="Australia"></option> 
+          <option value="America"></option> 
+          <option value="Brazil"></option> 
+          <option value="Bangladesh"></option> 
+          <option value="Cuba"></option> 
+          <option value="China"></option> 
+          <option value="Denmark"></option> 
+          <option value="Duabi"></option> 
+          <option value="Finland"></option> 
+          <option value="hungry"></option> 
+          <option value="India"></option> 
+          <option value="Ireland"></option> 
+          <option value="Japan"></option> 
+          </datalist> 
+        </div>
+        <fieldset style="border:1px solid black; width: 95%; margin:auto;">
+          <legend>Contact details</legend>
+          <div class="form-group" id="myList">
+            <label for="Name">Name :</label>
+              <input type="text" class="form-control" id="Name"  name="Name" required>
+              <label for="Email">Email</label>
+              <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" name="Email" required>
+              <button class="btn btn-success btn-sm" onclick="contact()">Add Contact</button>
+            </div>
+        </fieldset>
+        <div class="form-group">
+          <label for="mobile">Mobile No.</label>
+          <input type="tel" name="mobile" class="form-control" title="Number should be of 10 length" minlength="10" maxlength="10" required>
+        </div>
+        <div class="form-group">
+          <label for="age">Age :</label>
+          <input type="number" name="age" class="form-control" id="aa" min="5" max="60" required>
+        </div>
+        <div class="form-group">
+          <label for="voterid">Voter Id :</label>
+          <input type="number" name="voterid" id="voterid" class="form-control"onclick="checkage()" onseeking="checkage()">
+        </div>  
+      </fieldset>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+   <script src="ajay_js_1.js"></script>
+</body>
+</html> 

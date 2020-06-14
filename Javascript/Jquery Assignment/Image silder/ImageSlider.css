@@ -1,0 +1,22 @@
+.slide{
+			display:none;
+			margin:10px auto;
+			
+		}
+body{
+			background-color: gold;
+		}
+
+		.next{
+			position:absolute;
+			top:50%;
+			background-color: blue;
+			right: 15%;
+		}
+		.prev{
+			position: absolute;
+			top: 50%;
+			left: 15%;
+			background-color: blue;
+
+		}

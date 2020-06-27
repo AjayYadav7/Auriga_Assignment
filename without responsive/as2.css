@@ -1,0 +1,132 @@
+.UpperBlock{
+			width: 80%;
+			position: relative;
+			left:100px;
+			border:1px solid black;
+		}
+		.insideblock{
+			display: block;
+		}
+		.uba{
+			/*margin-right: 200px;*/
+		}
+		.ubaspan{
+			margin-left: 730px;
+		}
+		.ubb{
+			margin-top: 10px;
+			margin-left: 400px;
+			font-size: 25px;
+		}
+		.ubc{
+			margin-left: 420px;
+			font-size: 15px;
+		}
+		.ubd{
+			display: inline-block;
+			border:1px solid black;
+			margin: 25px;
+			background-color: lightgrey;
+			width:95%;
+		}
+		.ubda{
+			margin-left: 55px;
+			margin-bottom: 10px;
+			margin-top: 20px;
+		}
+
+		span{
+			margin-left: 20px;
+			/*align-items: center;
+			position: relative;
+*/
+		}
+		.sp{
+			margin-left: 100px;
+		}
+		.stm{
+			margin-top: 10px;
+			margin-left: 80px;
+			margin-bottom: 10px;
+		}
+		.Lower{
+			background-color: grey;
+			width:98.3%;	
+			padding: 10px;
+		}
+		.lowerl{
+			display:inline-block;			
+		}
+		.laspan{
+			margin-left: 600px;
+		}
+		.lb{
+			margin-top: 20px;
+		}
+		.lbspan{
+			margin-left: 0px;
+			margin-right: 600px;
+		}
+		.li{
+			margin:5px 0px;
+			text-align: center;
+			background-color: darkgrey;
+			padding:5px 0px;
+
+		}
+		.lc{
+			height: 5px;
+			margin-right: 750px;
+
+		}
+		.ld{
+			height: 5px;
+			margin-left: 850px;
+		}
+		.lg{
+			height: 5px;
+			margin-left: 780px;
+		}
+		.le{
+			background-color: lightgrey;
+		}
+		.lf{
+			background-color: lightgrey;
+			margin-left: 450px;
+
+		}
+		.lh{
+			width:350px;
+			background-color: lightgrey;
+			margin-top: 30px;
+			margin-left: 350px;
+			text-align: center;
+		}
+		.oa{
+			width: 80%;
+			margin-left: 100px;
+		}
+		.oaspan{
+			margin-left: 450px;
+		}
+		div.buttons{
+			display: inline;
+			margin:0px 10px;
+			
+		}
+		.b1{
+			background-color: grey;
+			margin-bottom: 0px;
+		}
+		.b2{
+			min-width: 50px;
+			background-color: grey;
+		}
+		.b3{
+			min-width: 50px;
+			background-color: grey;
+		}
+		.bspan{
+			float: right;
+			margin-right: 10px;
+		}

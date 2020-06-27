@@ -1,0 +1,237 @@
+.mainFrame{
+			position: relative;
+			border:2px solid black;
+			width:80%;
+			left:100px;
+			height:550px;
+
+		}
+		.a{
+
+			background-color: pink;
+			height:30px;
+			width:300px;
+		}
+		.b{
+			position: absolute;
+			background-color: pink;
+			height: 30px;
+			width:250px;
+			right:0px;
+			top:0px;
+		}
+		.c{
+			position:absolute;
+			background-color: pink;
+			height: 60px;
+			width:320px;
+			top:50px;
+			left: 320px;
+		}
+		.d{
+			position: absolute;
+			background-color: pink;
+			height:20px;
+			width:80px;
+			top:115px;
+			left:420px;
+
+		}
+		.secondMainFrame{
+			position:relative;
+			background-color: pink;
+			height:300px;
+			
+			top:115px;
+			margin:20px;
+			/*display: inline;*/
+			
+
+		}
+		.smf{
+			background-color: grey;
+			position: absolute;
+		}
+		.a1{
+			height:30px;
+			width: 20%;
+			top:15px;
+			left:10px;
+		}
+		.a2{
+			height: 40px;
+			top:10px;
+			width: 40%;
+			left:200px;
+		}
+		.a3{
+			height:30px;
+			width: 35%;
+			top:15px;
+			right: 10px;
+		}
+		.a4{
+			height:30px;
+			top:80px;
+			width: 20%;
+			left:10px;
+		}
+		.a5{
+			height:80px;
+			top:70px;
+			width:77%;
+			left:200px;
+		}
+		.a6{
+			height: 30px;
+			top:155px;
+			width:40%;
+			left:200px;
+		}
+		.a7{
+			height: 65px;
+			top:200px;
+			width:40%;
+			left:200px;
+		}
+		.a8{
+			height: 30px;
+			top: 220px;
+			width: 25%;
+			left:580px;
+		}
+		.bottom{
+			position: absolute;
+			background-color: pink;
+			height:35px;
+			width:15%;
+			bottom:0px;
+			display: inline;
+			margin-left: 20px;
+			border:1px solid black;
+		}
+		.box1{
+			left:10px;
+		}
+		.box2{
+			left:200px;
+		}
+		.box3{
+			left:400px;
+		}
+		.box4{
+			position: absolute;
+			background-color: grey;
+			border:0px;
+			right:20px;
+			bottom:15px;
+			height:25px;
+		}
+		.mainFrameB{
+			position: relative;
+			height: 580px;
+			width:80%;
+			margin:0px;
+			border:2px solid black;
+			left:100px;
+			background-color: pink;
+		}
+		.mfb{
+			position:absolute;
+			background-color: grey;
+			display: inline-block;
+		}
+		.b1{
+			height:60px;
+			width:30%;
+			top:15px;
+			left:10px;
+		}
+		.b2{
+			height:60px;
+			width:30%;
+			top:15px;
+			right:10px;
+		}
+		.b3{
+			height: 20px;
+			width: 15%;
+			top:100px;
+			left:10px;
+		}
+		.b4{
+			height: 60px;
+			width:80%;
+			top:125px;
+			left:10px;
+		}
+		.b5{
+			height: 60px;
+			width: 16%;
+			top:125px;
+			right:10px;
+		}
+		.b6{
+			height: 20px;
+			width: 40%;
+			top:190px;
+			left: 10px;
+		}
+		.b7{
+			height: 60px;
+			width: 98%;
+			top: 220px;
+			left:10px;
+		}
+		.b8{
+			height: 20px;
+			width: 20%;
+			top:290px;
+			left: 10px;
+		}
+		.b9{
+			height: 60px;
+			width:80%;
+			top:320px;
+			left:10px;
+		}
+		.b10{
+			height: 20px;
+			width: 16%;
+			top:390px;
+			right: 10px;
+		}
+		.b11{
+			height: 60px;
+			width:80%;
+			top:420px;
+			right:10px;
+		}
+		.b12{
+			height: 20px;
+			width: 15%;
+			top:490px;
+			left:10px;
+		}
+		.b13{
+			height: 60px;
+			width: 80%;
+			top:520px;
+			left: 10px;
+		}
+		.below{
+			background-color: grey;
+			margin-top: 10px;
+		}
+		.l{
+			position: absolute;
+			height: 20px;
+			width:20%;
+			left:110px;
+		}
+		.r{
+			position: absolute;
+			height: 20px;
+			width: 40%;
+			right:170px;
+		}

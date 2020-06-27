@@ -1,0 +1,112 @@
+	.outer{
+			border:2px solid black;
+			width:80%;
+			border-top: 5px solid black;
+			margin:0px auto;
+			
+		}
+		.inner{
+			padding:10px;
+			/*display:inline-block;*/
+		}
+		.firstRow > .logout{
+			float:right;
+			
+		}
+		.inner > .secondRow{
+			margin:10px auto;
+			text-align: center;
+		}
+		.thirdRow{
+			width:380px;
+			
+			text-align: center;
+			float: left;
+		}
+		.fourthRow{
+			margin-top: 10px;
+			width: 490px;
+			text-align: center;
+
+		}
+		
+
+
+		.msg{
+			min-width: 60px;
+			text-align: right;
+			vertical-align: top;
+			margin:5px;
+		}
+		#fid{
+
+			background-color: grey;
+			display: inline-block;
+			/*width: 98%;*/
+			margin:0px auto;
+			vertical-align: top;
+		}
+		label{
+			display: inline-block;
+		}
+		.inner2{
+			background-color: lightgrey;
+		}
+		.container{
+			display: flex;
+			flex-wrap: wrap;
+
+
+
+		}
+		.box{
+			width:220px;
+			height: 280px;
+			border:1px solid black;
+			margin: 15px;
+			padding:7px;
+			background-color: grey;
+		}
+		figcaption{
+			width:130px;
+			
+		}
+		img{
+			height:240px;
+			width: 220px;
+		}
+
+		.oa{
+			width: 80%;
+			margin:0px auto;
+		}
+		.oaspan{
+			margin-left: 450px;
+		}.belowbox{
+			border:1px solid black;
+			width: 400px;
+			text-align: center;
+			margin: 15px auto;
+		}
+
+		div.buttons{
+			display: inline;
+			margin:0px 10px;
+			
+		}
+		.b1{
+			background-color: grey;
+			margin-bottom: 0px;
+		}
+		.b2{
+			min-width: 50px;
+			background-color: grey;
+		}
+		.b3{
+			min-width: 50px;
+			background-color: grey;
+		}
+		.bspan{
+			float: right;
+			margin-right: 10px;
+		}
